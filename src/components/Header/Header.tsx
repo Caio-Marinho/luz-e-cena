@@ -10,18 +10,23 @@ const Header = () => {
     return (
         <header>
             <HeaderList>
+
                 <HeaderListItem>
                     <Logo src='./Logo e Favicon/Logo.png' />
                 </HeaderListItem>
+
                 <HeaderListItem>
                     <HeaderLinks />
                 </HeaderListItem>
+
                 <HeaderListItem>
                     <HeaderFormFilters />
                 </HeaderListItem>
+
                 <HeaderListItem>
                     <HeaderActions />
                 </HeaderListItem>
+                
             </HeaderList>
         </header>
     )

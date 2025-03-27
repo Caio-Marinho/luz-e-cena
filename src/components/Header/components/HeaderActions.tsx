@@ -8,6 +8,7 @@ const HeaderActions = () => {
         <Button variavel='icon'>
             <HiOutlineShoppingCart/>
         </Button>
+        
         <Button variavel='icon'>
             <HiOutlineUser/>
         </Button>
