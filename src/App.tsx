@@ -7,7 +7,7 @@ function App() {
   return (
     <>
       <Header />
-      <Banner src="./Imagens/BannerDesktop.png" />
+      <Banner src="./Imagens/Banner_Desktop_Texto.png" />
     </>
   )
 }

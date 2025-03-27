@@ -12,7 +12,7 @@ const Header = () => {
             <HeaderList>
 
                 <HeaderListItem>
-                    <Logo src='./Logo e Favicon/Logo.png' />
+                    <Logo src='./Logo e Favicon/LogoEscura.png' />
                 </HeaderListItem>
 
                 <HeaderListItem>
@@ -26,7 +26,7 @@ const Header = () => {
                 <HeaderListItem>
                     <HeaderActions />
                 </HeaderListItem>
-                
+
             </HeaderList>
         </header>
     )
