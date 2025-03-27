@@ -5,7 +5,7 @@ function App() {
   return (
     <>
       <Banner src="./Imagens/BannerDesktop.png" />
-      <Link href="/" target="_blank">
+      <Link hiperlink="/" target="_blank">
         Link
       </Link>
     </>

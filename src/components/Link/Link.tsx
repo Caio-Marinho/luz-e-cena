@@ -2,13 +2,13 @@ import React from 'react';
 import styles from './Link.module.css';
 
 type LinkProps = React.AnchorHTMLAttributes<HTMLAnchorElement> & {
-  href: string;
+  hiperlink: string;
   children: React.ReactNode;
 };
 
-const Link = ({ children, href, ...rest }: LinkProps) => {
+const Link = ({ children, hiperlink, ...rest }: LinkProps) => {
   return (
-    <a className={styles.link} href={href} {...rest}>
+    <a className={styles.link} href={hiperlink} {...rest}>
       {children}
     </a>
   );
