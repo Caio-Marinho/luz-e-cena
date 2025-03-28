@@ -21,6 +21,13 @@ const HeaderFormFilters = () => {
         ])
     }, [])
 
+    useEffect(() => {
+        setCidades(cidades => [
+            ...cidades,
+            { id: 6, nome: "Recife" }
+        ]);
+    }, []);
+
     const mapeamentoCidades = () => cidades.map((cidade) => {
         return (
             <SelectorOption
