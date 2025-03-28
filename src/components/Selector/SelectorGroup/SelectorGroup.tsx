@@ -1,11 +1,9 @@
 import React from 'react';
 import styles from './SelectorGroup.module.css';
+import {SelectorGroupProps} from '../../../Types/SelectorGroup'
 
-interface SelectorGroup extends React.SelectHTMLAttributes<HTMLSelectElement> {
-    icon?: React.ReactNode;
-}
 
-const SelectorGroup = ({ icon, children, ...rest }: SelectorGroup) => {
+const SelectorGroup = ({ icon, children, ...rest }: SelectorGroupProps) => {
     return (
         <div className={styles.container}>
             {icon && <div className={styles.icone}>{icon}</div>}

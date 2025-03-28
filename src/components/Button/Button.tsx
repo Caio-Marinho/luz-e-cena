@@ -1,11 +1,7 @@
-import React, { MouseEventHandler } from 'react';
+import React from 'react';
 import styles from './Button.module.css';
 import classnames from 'classnames';
-
-type ButtonProps = {
-    variavel: "default" | "icon";
-    aoClicar?: MouseEventHandler<HTMLButtonElement>
-} & React.ButtonHTMLAttributes<HTMLButtonElement>;
+import { ButtonProps } from '../../Types/Button';
 
 const Button = ({ children, variavel = "default",aoClicar , ...rest }: ButtonProps) => {
     const classMap = {

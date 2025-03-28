@@ -1,10 +1,8 @@
 import React from 'react';
 import styles from './Link.module.css';
+import { LinkProps } from '../../Types/Link';
 
-type LinkProps = React.AnchorHTMLAttributes<HTMLAnchorElement> & {
-  hiperlink: string;
-  children: React.ReactNode;
-};
+
 
 const Link = ({ children, hiperlink, ...rest }: LinkProps) => {
   return (

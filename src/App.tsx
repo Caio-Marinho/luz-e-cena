@@ -1,5 +1,6 @@
-import Banner from "./components/Banner/Banner";
-import Header from "./components/Header/Header";
+import Banner from "./Components/Banner/Banner";
+import Header from "./Components/Header/Header";
+import MovieSection from "./Components/MovieSection/MovieSection";
 
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
     <>
       <Header />
       <Banner src="./Imagens/Banner_Desktop_Texto.png" />
+      <MovieSection />
     </>
   )
 }

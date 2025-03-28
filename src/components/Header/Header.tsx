@@ -1,10 +1,10 @@
-import React from 'react'
-import HeaderList from './components/HeaderList'
-import HeaderListItem from './components/HeaderListItem'
-import HeaderLinks from './components/HeaderLinks'
-import Logo from '../Logo/Logo'
-import HeaderActions from './components/HeaderActions'
-import HeaderFormFilters from './components/HeaderFormFilters'
+import React from 'react';
+import HeaderList from './Components/HeaderList';
+import HeaderListItem from './Components/HeaderListItem';
+import HeaderLinks from './Components/HeaderLinks';
+import Logo from '../Logo/Logo';
+import HeaderActions from './Components/HeaderActions';
+import HeaderFormFilters from './Components/HeaderFormFilters';
 
 const Header = () => {
     return (

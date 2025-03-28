@@ -1,9 +1,8 @@
 import React from 'react'
 import Link from '../../Link/Link'
+import { MenuItemProps } from '../../../Types/MenuItem'
 
-interface MenuItemProps extends React.LiHTMLAttributes<HTMLLIElement> {
-    href?: string
-}
+
 
 const MenuItem = ({children, href='#'}:MenuItemProps) => {
   return (
